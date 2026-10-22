@@ -1,0 +1,39 @@
+---
+layout: layouts/page.njk
+title: Ceník služeb
+heading: Ceník nabízených procedur
+description: Ceník masáží v Chrudimi – masáž obličeje, zad a šíje i celého těla. Ceny za 30, 60 a 90 minut.
+showCta: true
+eleventyComputed:
+  lead: "{{ pricing.intro }}"
+---
+{%- for group in pricing.groups %}
+<div class="price-group">
+  <table class="price-table">
+    <caption>{{ group.title }}</caption>
+    <thead>
+      <tr>
+        <th scope="col">Masáž</th>
+        <th scope="col">Délka</th>
+        <th scope="col" class="price-table__price">Cena</th>
+      </tr>
+    </thead>
+    <tbody>
+      {%- for item in group.items %}
+      <tr>
+        <th scope="row">{{ item.name }}</th>
+        <td>{{ item.minutes }} min</td>
+        <td class="price-table__price">{{ item.price | czk }}</td>
+      </tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+  {%- if group.note %}
+  <p class="price-group__note">{{ group.note }}</p>
+  {%- endif %}
+</div>
+{%- endfor %}
+
+{%- if pricing.footnote %}
+<p class="price-footnote">{{ pricing.footnote }}</p>
+{%- endif %}

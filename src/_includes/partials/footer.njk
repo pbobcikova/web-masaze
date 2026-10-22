@@ -1,0 +1,15 @@
+{% from "partials/icons.njk" import icon %}
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <a class="brand brand--footer" href="/" aria-label="{{ site.name }} – úvod">
+      {{ icon("lotus", 34) }}
+      <span class="brand__text">{{ site.shortName }}</span>
+    </a>
+    <p class="site-footer__contact">
+      <a href="tel:{{ site.phone | telHref }}">{{ site.phone }}</a>
+      <span aria-hidden="true">·</span>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </p>
+    <p class="site-footer__legal">© {{ build.year }} {{ site.name }} | <a href="/cookies/">Cookies</a></p>
+  </div>
+</footer>

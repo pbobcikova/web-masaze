@@ -1,0 +1,12 @@
+<section class="stats"{% if site.images.stats %} style="--bg-image:url('{{ site.images.stats }}')"{% endif %}>
+  <div class="wrap stats__grid">
+    {%- for s in stats %}
+    {%- if s.value %}
+    <div class="stat">
+      <p class="stat__value"><span data-count="{{ s.value }}">{{ s.value }}</span>{{ s.suffix }}</p>
+      <p class="stat__label">{{ s.label }}</p>
+    </div>
+    {%- endif %}
+    {%- endfor %}
+  </div>
+</section>

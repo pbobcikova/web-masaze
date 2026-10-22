@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/procedure.njk",
+  "tags": "procedure",
+  "permalink": "/{{ page.fileSlug }}/"
+}

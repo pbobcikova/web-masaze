@@ -1,0 +1,16 @@
+{
+  "name": "masaze-chrudim-obrovska",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Eleventy template for a home-visit massage business site (based on masazechrudim-obrovska.cz)",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf _site"
+  },
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

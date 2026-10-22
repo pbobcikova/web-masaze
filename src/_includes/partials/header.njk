@@ -1,0 +1,30 @@
+{% from "partials/icons.njk" import icon %}
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="/" aria-label="{{ site.name }} – úvod">
+      {{ icon("lotus", 30) }}
+      <span class="brand__text">{{ site.shortName }}</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Hlavní navigace">
+      <ul class="site-nav__list">
+        <li><a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Úvod</a></li>
+        <li>
+          <details class="site-nav__sub">
+            <summary>Procedury</summary>
+            <ul class="site-nav__subList">
+              {%- for p in collections.procedures %}
+              <li><a href="{{ p.url }}"{% if page.url == p.url %} aria-current="page"{% endif %}>{{ p.data.navTitle or p.data.title }}</a></li>
+              {%- endfor %}
+            </ul>
+          </details>
+        </li>
+        <li><a href="/cenik-sluzeb/"{% if page.url == "/cenik-sluzeb/" %} aria-current="page"{% endif %}>Ceník služeb</a></li>
+        <li><a href="/kontakty/"{% if page.url == "/kontakty/" %} aria-current="page"{% endif %}>Kontakty</a></li>
+      </ul>
+      <a class="site-nav__phone" href="tel:{{ site.phone | telHref }}">{{ icon("phone", 18) }}<span>{{ site.phoneShort }}</span></a>
+    </nav>
+  </div>
+</header>

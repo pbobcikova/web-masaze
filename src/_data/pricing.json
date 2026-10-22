@@ -1,0 +1,24 @@
+{
+  "intro": "Přehled masáží s cenami. Vyberte si tu, která nejlépe odpovídá tomu, co právě potřebujete.",
+  "groups": [
+    {
+      "title": "Jednotlivé masáže",
+      "items": [
+        { "name": "Masáž obličeje", "minutes": 30, "price": 650 },
+        { "name": "Masáž zad a šíje", "minutes": 30, "price": 650 },
+        { "name": "Masáž celého těla", "minutes": 60, "price": 950 },
+        { "name": "Masáž celého těla", "minutes": 90, "price": 1750 }
+      ]
+    },
+    {
+      "title": "Masáž celého těla dle mého uvážení",
+      "note": "Techniku zvolím podle toho, co vaše tělo potřebuje: spouštěcí body, baňkování nebo lávové kameny. Vše je v ceně.",
+      "items": [
+        { "name": "Masáž celého těla", "minutes": 30, "price": 650 },
+        { "name": "Masáž celého těla", "minutes": 60, "price": 950 },
+        { "name": "Masáž celého těla", "minutes": 90, "price": 1750 }
+      ]
+    }
+  ],
+  "footnote": "Tejpování dle dohody."
+}

@@ -1,0 +1,147 @@
+---
+layout: layouts/base.njk
+---
+{% from "partials/icons.njk" import icon %}
+
+{# Hero #}
+<section class="banner banner--hero"{% if site.images.hero %} style="--bg-image:url('{{ site.images.hero }}')"{% endif %}>
+  <div class="wrap banner__inner">
+    <p class="eyebrow eyebrow--light">{{ site.eyebrow }}</p>
+    <h1 class="banner__title">{{ home.hero.title }}</h1>
+    <p class="banner__text">{{ home.hero.text }}</p>
+    <a class="btn btn--light" href="#procedury">{{ home.hero.cta }}</a>
+  </div>
+</section>
+
+{# Benefits #}
+<section class="section">
+  <div class="wrap">
+    <header class="section__head section__head--center">
+      <p class="eyebrow">{{ site.eyebrow }}</p>
+      <h2>{{ home.benefits.title }}</h2>
+    </header>
+    <div class="features">
+      {%- for item in home.benefits.items %}
+      <article class="feature">
+        <span class="feature__icon">{{ icon(item.icon, 28) }}</span>
+        <h3 class="feature__title">{{ item.title }}</h3>
+        <p>{{ item.text }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{# About #}
+<section class="section section--cloud" id="o-mne">
+  <div class="wrap about">
+    <div class="about__text">
+      <h2>{{ home.about.title }}</h2>
+      {%- for p in home.about.paragraphs %}
+      <p>{{ p }}</p>
+      {%- endfor %}
+      {%- if certificates.length %}
+      <h3 class="about__certTitle">{{ home.about.certificatesTitle }}</h3>
+      <ul class="certs">
+        {%- for c in certificates %}
+        <li>
+          {%- if c.image %}
+          <a href="{{ c.image }}" target="_blank" rel="noopener"><img src="{{ c.image }}" alt="{{ c.name }}" loading="lazy"></a>
+          {%- else %}
+          <span>{{ c.name }}</span>
+          {%- endif %}
+        </li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </div>
+    <div class="media about__media" aria-hidden="true"{% if site.images.about %} style="--bg-image:url('{{ site.images.about }}')"{% endif %}></div>
+  </div>
+
+  <div class="wrap reasons">
+    {%- for r in home.about.reasons %}
+    <article class="reason">
+      <p class="reason__num">{{ "0" + loop.index }}</p>
+      <h3 class="reason__title">{{ r.title }}</h3>
+      <p>{{ r.text }}</p>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+{# Consultation band #}
+{%- if home.consultation.enabled %}
+<section class="band">
+  <div class="wrap band__inner">
+    <div>
+      <p class="eyebrow eyebrow--light">{{ home.consultation.eyebrow }}</p>
+      <h2 class="band__title">{{ home.consultation.title }}</h2>
+      <p>{{ home.consultation.text }}</p>
+    </div>
+    <div>
+      <ul class="band__list">
+        {%- for item in home.consultation.items %}
+        <li>{{ icon("check", 20) }}<span>{{ item }}</span></li>
+        {%- endfor %}
+      </ul>
+      <div class="band__actions">
+        <a class="btn btn--light" href="tel:{{ site.phone | telHref }}">{{ home.consultation.cta }} {{ site.phoneShort }}</a>
+        {%- if home.consultation.secondaryUrl %}
+        <a class="btn btn--outline-light" href="{{ home.consultation.secondaryUrl }}" target="_blank" rel="noopener">{{ home.consultation.secondaryCta }}</a>
+        {%- endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{# Procedures #}
+<section class="section section--dark" id="procedury">
+  <div class="wrap">
+    <header class="section__head section__head--center">
+      <p class="eyebrow eyebrow--light">{{ site.eyebrow }}</p>
+      <h2>{{ home.procedures.title }}</h2>
+      <p>{{ home.procedures.intro }}</p>
+    </header>
+    <div class="procs">
+      {%- for p in collections.homeProcedures %}
+      <article class="proc">
+        <p class="proc__num">{{ "0" + loop.index }}.</p>
+        <h3 class="proc__title">{{ p.data.title }}</h3>
+        <p>{{ p.data.summary }}</p>
+        <a class="proc__link" href="{{ p.url }}">{{ home.procedures.more }}<span class="visually-hidden">: {{ p.data.title }}</span></a>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{# Testimonials #}
+{%- if home.testimonials.length %}
+<section class="section section--lavender">
+  <div class="wrap">
+    {%- for t in home.testimonials %}
+    <figure class="quote">
+      <blockquote>{{ t.quote }}</blockquote>
+      <figcaption>{{ t.author }}</figcaption>
+    </figure>
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}
+
+{# Contact #}
+<section class="section" id="kontakt">
+  <div class="wrap contact">
+    <div>
+      <p class="eyebrow">{{ site.eyebrow }}</p>
+      <h2>{{ home.contact.title }}</h2>
+      <p>{{ home.contact.text }}</p>
+      {% include "partials/contact-list.njk" %}
+    </div>
+    <div class="contact__visit">
+      <h3>{{ home.visit.title }}!</h3>
+      <p>{{ home.visit.text }}</p>
+    </div>
+  </div>
+</section>

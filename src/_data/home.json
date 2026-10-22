@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Nechte odpočinout tělu i mysli",
+    "text": "Masáže v Chrudimi, které za vámi přijedou domů. Odpočinete si bez dojíždění a bez hledání parkování.",
+    "cta": "Nabídka procedur"
+  },
+  "visit": {
+    "title": "Přijedu až k vám",
+    "text": "Nemusíte řešit dojezd ani parkování. Masáž proběhne v pohodlí vašeho domova."
+  },
+  "benefits": {
+    "title": "Dopřejte tělu, mysli i duši chvíli klidu",
+    "items": [
+      { "icon": "heart", "title": "Relaxace", "text": "Zpomalte a nechte tělo odpočinout. Masáž pomáhá najít klid a vyrovnanost." },
+      { "icon": "sun", "title": "Méně stresu", "text": "Napětí z náročných dní se v masáži uvolňuje a hlava se zklidní." },
+      { "icon": "wind", "title": "Volnější tělo", "text": "Uvolněné svaly přinášejí pocit lehkosti a volnosti pohybu." }
+    ]
+  },
+  "about": {
+    "title": "Něco málo o mně",
+    "paragraphs": [
+      "Masérství se věnuji dlouhodobě a ke každému klientovi přistupuji individuálně. Postup přizpůsobuji tomu, co vaše tělo zrovna potřebuje.",
+      "Dopřejte si chvíli odpočinku, která vám pomůže obnovit energii."
+    ],
+    "certificatesTitle": "Certifikace a kurzy",
+    "reasons": [
+      { "title": "Dlouholetá praxe", "text": "Díky letům praxe se každému klientovi věnuji s plnou pozorností." },
+      { "title": "Odborné certifikace", "text": "Certifikáty a kurzy zaručují, že masáž provádím odborně a podle vašich potřeb." },
+      { "title": "Přijedu až k vám", "text": "Masáž dostanete doma, v prostředí, které znáte a kde se cítíte dobře." }
+    ]
+  },
+  "consultation": {
+    "enabled": true,
+    "eyebrow": "Konzultace zdarma",
+    "title": "Máte otázky k výživovým doplňkům?",
+    "text": "Nabízím bezplatnou konzultaci. Zavolejte a probereme, co by vám mohlo vyhovovat.",
+    "items": ["Konzultace zdarma", "Nezávazná domluva", "Individuální přístup"],
+    "cta": "Volejte",
+    "secondaryCta": "Více o produktech",
+    "secondaryUrl": "https://www.fitline.com/"
+  },
+  "procedures": {
+    "title": "Nabídka masáží",
+    "intro": "Od klasické masáže zad po lymfodrenáž. Každá procedura má vlastní stránku s popisem a upozorněním, kdy není vhodná.",
+    "more": "Více informací"
+  },
+  "testimonials": [
+    {
+      "quote": "Sem vložte skutečnou recenzi klienta.",
+      "author": "Spokojený klient"
+    }
+  ],
+  "contact": {
+    "title": "Kontaktujte mě",
+    "text": "Ráda odpovím na vaše dotazy a domluvím termín, který vám vyhovuje. Napište nebo zavolejte."
+  }
+}

@@ -1,0 +1,21 @@
+{% from "partials/icons.njk" import icon %}
+<ul class="contact-rows">
+  <li>
+    <span class="contact-rows__icon">{{ icon("clock", 22) }}</span>
+    <div><p class="contact-rows__label">Provozní doba</p><p class="contact-rows__value">{{ site.hours }}</p></div>
+  </li>
+  <li>
+    <span class="contact-rows__icon">{{ icon("phone", 22) }}</span>
+    <div><p class="contact-rows__label">Telefon</p><p class="contact-rows__value"><a href="tel:{{ site.phone | telHref }}">{{ site.phone }}</a></p></div>
+  </li>
+  <li>
+    <span class="contact-rows__icon">{{ icon("mail", 22) }}</span>
+    <div><p class="contact-rows__label">E-mail</p><p class="contact-rows__value"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p></div>
+  </li>
+  {%- if showAddress %}
+  <li>
+    <span class="contact-rows__icon">{{ icon("pin", 22) }}</span>
+    <div><p class="contact-rows__label">Adresa</p><p class="contact-rows__value">{{ site.address.street }}, {{ site.address.zip }} {{ site.address.city }}</p></div>
+  </li>
+  {%- endif %}
+</ul>

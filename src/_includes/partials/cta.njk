@@ -1,0 +1,8 @@
+<section class="cta"{% if site.images.cta %} style="--bg-image:url('{{ site.images.cta }}')"{% endif %}>
+  <div class="wrap cta__inner">
+    <p class="eyebrow eyebrow--light">{{ ctaEyebrow or "Zaujali jsme Vás?" }}</p>
+    <h2 class="cta__title">{{ ctaTitle or "Neváhejte se objednat!" }}</h2>
+    <p class="cta__text">{{ ctaText or "Dopřejte odpočinek svému tělu a duši." }}</p>
+    <a class="btn btn--light" href="tel:{{ site.phone | telHref }}">{{ site.phone }}</a>
+  </div>
+</section>
