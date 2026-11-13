@@ -1,48 +1,42 @@
 {
   "hero": {
-    "title": "Nechte odpočinout tělu i mysli",
-    "text": "Masáže v Chrudimi, které za vámi přijedou domů. Odpočinete si bez dojíždění a bez hledání parkování.",
-    "cta": "Nabídka procedur"
+    "title": "Dopřejte odpočinek tělu i mysli",
+    "text": "Za relaxem už nemusíte dojíždět. Zažijte ho doma.",
+    "text": "Relaxační a zdravotní masáže pro uvolnění těla, úlevu od bolesti a celkovou regeneraci z pohodlí Vašeho domova.",
+    "cta": "Nabídka masáží"
   },
   "visit": {
-    "title": "Přijedu až k vám",
-    "text": "Nemusíte řešit dojezd ani parkování. Masáž proběhne v pohodlí vašeho domova."
+    "title": "Přijedu až k Vám",
+    "text": "Díky mobilní masáži nemusíte řešit dopravu ani parkování.",
+    "text": "Masáž proběhne bez zbytečných starostí, v pohodlí Vašeho domova."
   },
   "benefits": {
-    "title": "Dopřejte tělu, mysli i duši chvíli klidu",
+    "title": "Dopřejte si chvíli pro sebe",
     "items": [
       { "icon": "heart", "title": "Relaxace", "text": "Zpomalte a nechte tělo odpočinout. Masáž pomáhá najít klid a vyrovnanost." },
-      { "icon": "sun", "title": "Méně stresu", "text": "Napětí z náročných dní se v masáži uvolňuje a hlava se zklidní." },
-      { "icon": "wind", "title": "Volnější tělo", "text": "Uvolněné svaly přinášejí pocit lehkosti a volnosti pohybu." }
+      { "icon": "sun", "title": "Zklidnění", "text": "Napětí z náročných dní se v masáži uvolňuje a hlava se zklidní." },
+      { "icon": "wind", "title": "Uvolnění", "text": "Uvolněné svaly přinášejí pocit lehkosti a volnosti pohybu." }
     ]
   },
   "about": {
-    "title": "Něco málo o mně",
+    "title": "O mně",
     "paragraphs": [
-      "Masérství se věnuji dlouhodobě a ke každému klientovi přistupuji individuálně. Postup přizpůsobuji tomu, co vaše tělo zrovna potřebuje.",
-      "Dopřejte si chvíli odpočinku, která vám pomůže obnovit energii."
+      "Jsem certifikovanou masérkou, která se stále vzdělává. Postarám se o Vaše tělo a zklidním Vaši mysl.",
+      "Ke každému klientovi přistupuji individuálně. Masáž přizpůsobuji tomu, co Vaše tělo zrovna potřebuje.",
+      "Udělejte si čas na sebe a načerpejte novou energii."
     ],
-    "certificatesTitle": "Certifikace a kurzy",
+    "certificatesTitle": "Nabídka masáží",
     "reasons": [
-      { "title": "Dlouholetá praxe", "text": "Díky letům praxe se každému klientovi věnuji s plnou pozorností." },
-      { "title": "Odborné certifikace", "text": "Certifikáty a kurzy zaručují, že masáž provádím odborně a podle vašich potřeb." },
-      { "title": "Přijedu až k vám", "text": "Masáž dostanete doma, v prostředí, které znáte a kde se cítíte dobře." }
+      { "title": "Jedinečnost", "text": "Naslouchám Vašim potřebám a masáž přizpůsobuji tomu, co si Vaše tělo žádá." },
+      { "title": "Odborné certifikace", "text": "Dále se vzdělávám formou kurzů a získané dovednosti přenáším do své praxe." },
+      { "title": "Mobilní masáže", "text": "Dopřejte si masáž doma. Tam, kde to znáte a kde se cítíte dobře." }
     ]
   },
-  "consultation": {
-    "enabled": true,
-    "eyebrow": "Konzultace zdarma",
-    "title": "Máte otázky k výživovým doplňkům?",
-    "text": "Nabízím bezplatnou konzultaci. Zavolejte a probereme, co by vám mohlo vyhovovat.",
-    "items": ["Konzultace zdarma", "Nezávazná domluva", "Individuální přístup"],
-    "cta": "Volejte",
-    "secondaryCta": "Více o produktech",
-    "secondaryUrl": "https://www.fitline.com/"
-  },
+  
+  
   "procedures": {
     "title": "Nabídka masáží",
-    "intro": "Od klasické masáže zad po lymfodrenáž. Každá procedura má vlastní stránku s popisem a upozorněním, kdy není vhodná.",
-    "more": "Více informací"
+    "intro": "Relaxační a zdravotní masáže celého těla, maderoterapie, baňkování a tejpování. Výběr je jen na Vás."
   },
   "testimonials": [
     {
@@ -52,6 +46,6 @@
   ],
   "contact": {
     "title": "Kontaktujte mě",
-    "text": "Ráda odpovím na vaše dotazy a domluvím termín, který vám vyhovuje. Napište nebo zavolejte."
-  }
+    "text": "Ráda zodpovím Vaše dotazy.",
+   "text": "Domluvme si termín, který Vám vyhovuje. Napište mi nebo zavolejte."}
 }

@@ -28,10 +28,7 @@ layout: layouts/base.njk
       <div class="media" aria-hidden="true"{% if site.images.procedure %} style="--bg-image:url('{{ site.images.procedure }}')"{% endif %}></div>
 
       {%- if repeat %}
-      <div class="note">
-        <h3 class="note__title">Jak často</h3>
-        <p>{{ repeat }}</p>
-      </div>
+      
       {%- endif %}
 
       {%- if contraindications and contraindications.length %}
