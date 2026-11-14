@@ -8,7 +8,9 @@ layout: layouts/base.njk
   <div class="wrap banner__inner">
     <p class="eyebrow eyebrow--light">{{ site.eyebrow }}</p>
     <h1 class="banner__title">{{ home.hero.title }}</h1>
-    <p class="banner__text">{{ home.hero.text }}</p>
+    {%- for p in home.hero.paragraphs %}
+    <p class="banner__text">{{ p }}</p>
+    {%- endfor %}
     <a class="btn btn--light" href="#procedury">{{ home.hero.cta }}</a>
   </div>
 </section>

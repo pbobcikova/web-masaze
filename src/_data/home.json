@@ -1,28 +1,27 @@
 {
   "hero": {
     "title": "Dopřejte odpočinek tělu i mysli",
-    "text": "Za relaxem už nemusíte dojíždět. Zažijte ho doma.",
-    "text": "Relaxační a zdravotní masáže pro uvolnění těla, úlevu od bolesti a celkovou regeneraci z pohodlí Vašeho domova.",
+    "paragraphs": ["Za relaxem už nemusíte dojíždět. Zažijte ho doma.",
+     "Relaxační a zdravotní masáže pro uvolnění těla, úlevu od bolesti a celkovou regeneraci z pohodlí Vašeho domova."],
     "cta": "Nabídka masáží"
   },
   "visit": {
-    "title": "Přijedu až k Vám",
-    "text": "Díky mobilní masáži nemusíte řešit dopravu ani parkování.",
-    "text": "Masáž proběhne bez zbytečných starostí, v pohodlí Vašeho domova."
+    "title": "Přijedu až za Vámi",
+    "text": "Díky mobilní masáži nemusíte řešit dopravu ani parkování. Masáž proběhne bez zbytečných starostí, v pohodlí Vašeho domova."
   },
   "benefits": {
     "title": "Dopřejte si chvíli pro sebe",
     "items": [
-      { "icon": "heart", "title": "Relaxace", "text": "Zpomalte a nechte tělo odpočinout. Masáž pomáhá najít klid a vyrovnanost." },
-      { "icon": "sun", "title": "Zklidnění", "text": "Napětí z náročných dní se v masáži uvolňuje a hlava se zklidní." },
-      { "icon": "wind", "title": "Uvolnění", "text": "Uvolněné svaly přinášejí pocit lehkosti a volnosti pohybu." }
+      { "icon": "heart", "title": "Relaxace", "text": "Zpomalte a nechte tělo odpočinout. Naše masáže Vám pomohou najít klid a harmonii." },
+      { "icon": "sun", "title": "Zklidnění", "text": "Zbavte se napětí z náročných dní a zastavte hlavu. Užijte si přítomný okamžik." },
+      { "icon": "wind", "title": "Uvolnění", "text": "Uvolněné svaly Vám přinesou pocit lehkosti a volnosti pohybu." }
     ]
   },
   "about": {
     "title": "O mně",
     "paragraphs": [
-      "Jsem certifikovanou masérkou, která se stále vzdělává. Postarám se o Vaše tělo a zklidním Vaši mysl.",
-      "Ke každému klientovi přistupuji individuálně. Masáž přizpůsobuji tomu, co Vaše tělo zrovna potřebuje.",
+      "Jsem certifikovanou masérkou, která se stále vzdělává. Mým cílem je, aby se klienti cítili dobře a odcházeli s pocitem uvolnění a spokojenosti.",
+      "Ke každému přistupuji individuálně. Masáž přizpůsobuji tomu, co Vaše tělo zrovna potřebuje.",
       "Udělejte si čas na sebe a načerpejte novou energii."
     ],
     "certificatesTitle": "Nabídka masáží",
@@ -36,7 +35,7 @@
   
   "procedures": {
     "title": "Nabídka masáží",
-    "intro": "Relaxační a zdravotní masáže celého těla, maderoterapie, baňkování a tejpování. Výběr je jen na Vás."
+    "intro": "Nechte se opečovat a dopřejte si zasloužený odpočinek! Nabízím relaxační a zdravotní masáže celého těla, maderoterapii, baňkování a tejpování. Výběr je jen na Vás."
   },
   "testimonials": [
     {
@@ -46,6 +45,5 @@
   ],
   "contact": {
     "title": "Kontaktujte mě",
-    "text": "Ráda zodpovím Vaše dotazy.",
-   "text": "Domluvme si termín, který Vám vyhovuje. Napište mi nebo zavolejte."}
+    "text": "Ráda zodpovím Vaše dotazy a pomohu s výběrem masáže. Naplánujeme termín, který Vám vyhovuje. Kontaktujte mě telefonicky nebo prostřednictvím e-mailu. Těším se na Vaši zprávu."}
 }
