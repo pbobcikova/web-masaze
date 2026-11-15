@@ -7,7 +7,7 @@
   },
   "visit": {
     "title": "Přijedu až za Vámi",
-    "text": "Díky mobilní masáži nemusíte řešit dopravu ani parkování. Masáž proběhne bez zbytečných starostí, v pohodlí Vašeho domova."
+    "text": ["Díky mobilní masáži nemusíte řešit dopravu ani parkování.", "Masáž proběhne bez zbytečných starostí, v pohodlí Vašeho domova."]
   },
   "benefits": {
     "title": "Dopřejte si chvíli pro sebe",
@@ -20,11 +20,11 @@
   "about": {
     "title": "O mně",
     "paragraphs": [
-      "Jsem certifikovanou masérkou, která se stále vzdělává. Mým cílem je, aby se klienti cítili dobře a odcházeli s pocitem uvolnění a spokojenosti.",
+      "Jmenuji se Markéta Pospíchalová a jsem certifikovanou masérkou. Nabízím sportovně-zdravotní masáže zaměřené na uvolnění svalového napětí, regeneraci těla a podporu přirozeného pohybu. Mým cílem je, aby se klienti cítili dobře a odcházeli s pocitem uvolnění a spokojenosti.",
       "Ke každému přistupuji individuálně. Masáž přizpůsobuji tomu, co Vaše tělo zrovna potřebuje.",
       "Udělejte si čas na sebe a načerpejte novou energii."
     ],
-    "certificatesTitle": "Nabídka masáží",
+    "certificatesTitle": "Certifikáty",
     "reasons": [
       { "title": "Jedinečnost", "text": "Naslouchám Vašim potřebám a masáž přizpůsobuji tomu, co si Vaše tělo žádá." },
       { "title": "Odborné certifikace", "text": "Dále se vzdělávám formou kurzů a získané dovednosti přenáším do své praxe." },

@@ -1,5 +1,5 @@
 ---
-title: Klasická masáž
+title: Masáž zad a šíje
 order: 1
 summary: Masáž zad a šíje, která uvolňuje napětí a tiší bolesti. Nejlépe funguje při pravidelných návštěvách.
 lead: Masáž zádového a šíjového svalstva, případně obojího dohromady. Pracuji s kvalitní masážní emulzí a podle toho, kde vás tělo tlačí.

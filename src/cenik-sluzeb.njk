@@ -35,5 +35,13 @@ eleventyComputed:
 {%- endfor %}
 
 {%- if pricing.footnote %}
-<p class="price-footnote">{{ pricing.footnote }}</p>
+<p class="price-footnote">
+  {%- if pricing.footnote is string %}
+  {{ pricing.footnote }}
+  {%- else %}
+  {%- for item in pricing.footnote %}
+  {{ item }}{% if not loop.last %}<br>{% endif %}
+  {%- endfor %}
+  {%- endif %}
+</p>
 {%- endif %}

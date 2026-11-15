@@ -2,23 +2,44 @@
   "intro": "Podívejte se na naše masáže a vyberte si tu, která nejlépe odpovídá Vašim potřebám.",
   "groups": [
     {
-      "title": "Jednotlivé masáže",
       "items": [
-        { "name": "Masáž obličeje", "minutes": 30, "price": 650 },
-        { "name": "Masáž zad a šíje", "minutes": 30, "price": 650 },
-        { "name": "Masáž celého těla", "minutes": 60, "price": 950 },
-        { "name": "Masáž celého těla", "minutes": 90, "price": 1750 }
-      ]
-    },
-    {
-      "title": "Masáž celého těla dle mého uvážení",
-      "note": "Techniku zvolím podle toho, co vaše tělo potřebuje: spouštěcí body, baňkování nebo lávové kameny. Vše je v ceně.",
-      "items": [
-        { "name": "Masáž celého těla", "minutes": 30, "price": 650 },
-        { "name": "Masáž celého těla", "minutes": 60, "price": 950 },
-        { "name": "Masáž celého těla", "minutes": 90, "price": 1750 }
+        {
+          "name": "Masáž zad a šíje",
+          "minutes": 60,
+          "price": 500
+        },
+        {
+          "name": "Masáž zad a dolních končetin",
+          "minutes": 80,
+          "price": 800
+        },
+        {
+          "name": "Masáž celého těla (zad a šíje, horních a dolních končetin, hýždí)",
+          "minutes": 120,
+          "price": 1500
+        },
+        {
+          "name": "Masáž břicha (uvolnění peristaltiky)",
+          "minutes": 20,
+          "price": 250
+        },
+        {
+          "name": "Maderoterapie (celé tělo)",
+          "minutes": 90,
+          "price": 900
+        },
+        {
+          "name": "Baňkování včetně masáže zad",
+          "minutes": 75,
+          "price": 800
+        },
+        {
+          "name": "Tejpování (dle rozsahu)",
+          "minutes": 0,
+          "price": "50 - 350"
+        }
       ]
     }
   ],
-  "footnote": "Tejpování dle dohody."
+  "footnote": ["Konkrétní procedury lze upravit na míru po předchozí domluvě.", " Možnost zakoupení dárkových poukazů."]
 }
